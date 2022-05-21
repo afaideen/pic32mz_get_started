@@ -101,7 +101,7 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assembleWithPreprocess
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache_pic32mz.S  .generated_files/flags/pic32mz_efm_curiosity_v2/992c0af1a581b75ec9b90679fa7f8a325bdc740d .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache_pic32mz.S  .generated_files/flags/pic32mz_efm_curiosity_v2/46a1c8cf9c1527272539b9fd2dc7211634f447f0 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1490348075" 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o 
@@ -110,7 +110,7 @@ ${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o: ../src/config/pic32mz_efm_cur
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o.d" "${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o.asm.d" -t $(SILENT) -rsi ${MP_CC_DIR}../ 
 	
 else
-${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache_pic32mz.S  .generated_files/flags/pic32mz_efm_curiosity_v2/5fb08ade00015b6f58779e7097188506fb8ec581 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache_pic32mz.S  .generated_files/flags/pic32mz_efm_curiosity_v2/53f1b2be837485c5b27db373e1b8fe5f13fa7f6d .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1490348075" 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache_pic32mz.o 
@@ -123,266 +123,266 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/2069430823/bsp.o: ../src/config/pic32mz_efm_curiosity_v2/bsp/bsp.c  .generated_files/flags/pic32mz_efm_curiosity_v2/20225819ca6db85d726b2803a885b0336a2595b5 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/2069430823/bsp.o: ../src/config/pic32mz_efm_curiosity_v2/bsp/bsp.c  .generated_files/flags/pic32mz_efm_curiosity_v2/5cbdbaacff9f4ecefd017a0d6e7b555bb58f7283 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/2069430823" 
 	@${RM} ${OBJECTDIR}/_ext/2069430823/bsp.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2069430823/bsp.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/2069430823/bsp.o.d" -o ${OBJECTDIR}/_ext/2069430823/bsp.o ../src/config/pic32mz_efm_curiosity_v2/bsp/bsp.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1358738476/drv_sst26.o: ../src/config/pic32mz_efm_curiosity_v2/driver/sst26/src/drv_sst26.c  .generated_files/flags/pic32mz_efm_curiosity_v2/43190e0e33c45bf1035dfa5f86f1105b6826f4e4 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1358738476/drv_sst26.o: ../src/config/pic32mz_efm_curiosity_v2/driver/sst26/src/drv_sst26.c  .generated_files/flags/pic32mz_efm_curiosity_v2/efa2de270d1676602931e1e82aef798a7281475b .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1358738476" 
 	@${RM} ${OBJECTDIR}/_ext/1358738476/drv_sst26.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1358738476/drv_sst26.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1358738476/drv_sst26.o.d" -o ${OBJECTDIR}/_ext/1358738476/drv_sst26.o ../src/config/pic32mz_efm_curiosity_v2/driver/sst26/src/drv_sst26.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1490348075/plib_cache.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/2bd803c41b4ac27832e948b21b1993939a5cc650 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1490348075/plib_cache.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/9b0eddb2e5016f010002ee570abae6ff2fa1abfd .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1490348075" 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1490348075/plib_cache.o.d" -o ${OBJECTDIR}/_ext/1490348075/plib_cache.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/262136373/plib_clk.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/clk/plib_clk.c  .generated_files/flags/pic32mz_efm_curiosity_v2/6cd78f00e914fa265c9a72aacda44ce9b113f366 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/262136373/plib_clk.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/clk/plib_clk.c  .generated_files/flags/pic32mz_efm_curiosity_v2/93b88a52f588b90f2568e2659a240e78c789ed7e .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/262136373" 
 	@${RM} ${OBJECTDIR}/_ext/262136373/plib_clk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/262136373/plib_clk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/262136373/plib_clk.o.d" -o ${OBJECTDIR}/_ext/262136373/plib_clk.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/clk/plib_clk.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/758467033/plib_coretimer.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/coretimer/plib_coretimer.c  .generated_files/flags/pic32mz_efm_curiosity_v2/1e17d352ae665114242f9715cfafa19ad66d54d8 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/758467033/plib_coretimer.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/coretimer/plib_coretimer.c  .generated_files/flags/pic32mz_efm_curiosity_v2/fe709a228ab9d45aae6182aa1066c86817b90ab1 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/758467033" 
 	@${RM} ${OBJECTDIR}/_ext/758467033/plib_coretimer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/758467033/plib_coretimer.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/758467033/plib_coretimer.o.d" -o ${OBJECTDIR}/_ext/758467033/plib_coretimer.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/coretimer/plib_coretimer.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/463637800/plib_evic.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/evic/plib_evic.c  .generated_files/flags/pic32mz_efm_curiosity_v2/333be45390859627fc983bcaf69c3bc67cabcb4b .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/463637800/plib_evic.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/evic/plib_evic.c  .generated_files/flags/pic32mz_efm_curiosity_v2/3ab12cc4d8c3ddcf3618b48b667257c9daba3c83 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/463637800" 
 	@${RM} ${OBJECTDIR}/_ext/463637800/plib_evic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/463637800/plib_evic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/463637800/plib_evic.o.d" -o ${OBJECTDIR}/_ext/463637800/plib_evic.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/evic/plib_evic.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/463583972/plib_gpio.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/gpio/plib_gpio.c  .generated_files/flags/pic32mz_efm_curiosity_v2/7fd9adab21fcbc16690119a6194f3a5479eb3c96 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/463583972/plib_gpio.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/gpio/plib_gpio.c  .generated_files/flags/pic32mz_efm_curiosity_v2/ec49e857f06462595ada39ad015da0f55832b9f6 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/463583972" 
 	@${RM} ${OBJECTDIR}/_ext/463583972/plib_gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/463583972/plib_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/463583972/plib_gpio.o.d" -o ${OBJECTDIR}/_ext/463583972/plib_gpio.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/gpio/plib_gpio.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/262151902/plib_sqi1.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/sqi/plib_sqi1.c  .generated_files/flags/pic32mz_efm_curiosity_v2/8023cc8802ce3c5e9c521bf72f5fc448a3e4c4da .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/262151902/plib_sqi1.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/sqi/plib_sqi1.c  .generated_files/flags/pic32mz_efm_curiosity_v2/22b9a6cd24556e0a9619f7b53ce961bc8598c090 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/262151902" 
 	@${RM} ${OBJECTDIR}/_ext/262151902/plib_sqi1.o.d 
 	@${RM} ${OBJECTDIR}/_ext/262151902/plib_sqi1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/262151902/plib_sqi1.o.d" -o ${OBJECTDIR}/_ext/262151902/plib_sqi1.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/sqi/plib_sqi1.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/463181029/plib_uart6.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/uart/plib_uart6.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f8d13a1ccbe6cdc5fa29d2cbd6f7048b1e2822f0 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/463181029/plib_uart6.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/uart/plib_uart6.c  .generated_files/flags/pic32mz_efm_curiosity_v2/7c5e36c224e91609cfc2cd838f24793753723f5e .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/463181029" 
 	@${RM} ${OBJECTDIR}/_ext/463181029/plib_uart6.o.d 
 	@${RM} ${OBJECTDIR}/_ext/463181029/plib_uart6.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/463181029/plib_uart6.o.d" -o ${OBJECTDIR}/_ext/463181029/plib_uart6.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/uart/plib_uart6.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/137441373/xc32_monitor.o: ../src/config/pic32mz_efm_curiosity_v2/stdio/xc32_monitor.c  .generated_files/flags/pic32mz_efm_curiosity_v2/b70ca25d2860d9ffc38b38b34156218776545277 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/137441373/xc32_monitor.o: ../src/config/pic32mz_efm_curiosity_v2/stdio/xc32_monitor.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f85adad392edaa5b2f62f5bdfcba8f66aafb89e4 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/137441373" 
 	@${RM} ${OBJECTDIR}/_ext/137441373/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/137441373/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/137441373/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/137441373/xc32_monitor.o ../src/config/pic32mz_efm_curiosity_v2/stdio/xc32_monitor.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/522209976/sys_cache.o: ../src/config/pic32mz_efm_curiosity_v2/system/cache/sys_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/6a22f28ad755b3577af3e32b9958aa1d05aa5c8c .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/522209976/sys_cache.o: ../src/config/pic32mz_efm_curiosity_v2/system/cache/sys_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/74ce3e8d61c3e932077320936d00c5a23f2a1f40 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/522209976" 
 	@${RM} ${OBJECTDIR}/_ext/522209976/sys_cache.o.d 
 	@${RM} ${OBJECTDIR}/_ext/522209976/sys_cache.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/522209976/sys_cache.o.d" -o ${OBJECTDIR}/_ext/522209976/sys_cache.o ../src/config/pic32mz_efm_curiosity_v2/system/cache/sys_cache.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/2083639306/sys_int.o: ../src/config/pic32mz_efm_curiosity_v2/system/int/src/sys_int.c  .generated_files/flags/pic32mz_efm_curiosity_v2/51df8585dedd142162823c12460b3d822d52856 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/2083639306/sys_int.o: ../src/config/pic32mz_efm_curiosity_v2/system/int/src/sys_int.c  .generated_files/flags/pic32mz_efm_curiosity_v2/2b6cb210247ba78b3fc8aaaccca0e5ac3426dc2b .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/2083639306" 
 	@${RM} ${OBJECTDIR}/_ext/2083639306/sys_int.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2083639306/sys_int.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/2083639306/sys_int.o.d" -o ${OBJECTDIR}/_ext/2083639306/sys_int.o ../src/config/pic32mz_efm_curiosity_v2/system/int/src/sys_int.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1864244252/sys_time.o: ../src/config/pic32mz_efm_curiosity_v2/system/time/src/sys_time.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f58f4f93d1d9819c3c37e1be36d4a69225a927b0 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1864244252/sys_time.o: ../src/config/pic32mz_efm_curiosity_v2/system/time/src/sys_time.c  .generated_files/flags/pic32mz_efm_curiosity_v2/e30991626a9a55448fec6475c55a06220103c45b .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1864244252" 
 	@${RM} ${OBJECTDIR}/_ext/1864244252/sys_time.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1864244252/sys_time.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1864244252/sys_time.o.d" -o ${OBJECTDIR}/_ext/1864244252/sys_time.o ../src/config/pic32mz_efm_curiosity_v2/system/time/src/sys_time.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/initialization.o: ../src/config/pic32mz_efm_curiosity_v2/initialization.c  .generated_files/flags/pic32mz_efm_curiosity_v2/b553c52d2a87c0dc263820213e789d44fbb1d875 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/initialization.o: ../src/config/pic32mz_efm_curiosity_v2/initialization.c  .generated_files/flags/pic32mz_efm_curiosity_v2/40bddf66193dc933261a2e43ccc7e9797481a0c .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/initialization.o.d" -o ${OBJECTDIR}/_ext/1363254953/initialization.o ../src/config/pic32mz_efm_curiosity_v2/initialization.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/interrupts.o: ../src/config/pic32mz_efm_curiosity_v2/interrupts.c  .generated_files/flags/pic32mz_efm_curiosity_v2/4769cb327c21c0f07d00cf159f693bd238b78b4a .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/interrupts.o: ../src/config/pic32mz_efm_curiosity_v2/interrupts.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f1abba1f7beb99ca1418bfa5b833f6db27a47d89 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/interrupts.o.d" -o ${OBJECTDIR}/_ext/1363254953/interrupts.o ../src/config/pic32mz_efm_curiosity_v2/interrupts.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/exceptions.o: ../src/config/pic32mz_efm_curiosity_v2/exceptions.c  .generated_files/flags/pic32mz_efm_curiosity_v2/da822967de45866a7c3b9ae59c64265967cd4a93 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/exceptions.o: ../src/config/pic32mz_efm_curiosity_v2/exceptions.c  .generated_files/flags/pic32mz_efm_curiosity_v2/106e5fc7e5246e82cff201191339a985fc7236f6 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/exceptions.o.d" -o ${OBJECTDIR}/_ext/1363254953/exceptions.o ../src/config/pic32mz_efm_curiosity_v2/exceptions.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/tasks.o: ../src/config/pic32mz_efm_curiosity_v2/tasks.c  .generated_files/flags/pic32mz_efm_curiosity_v2/c9c1b961ebd51832ddae7d2a6d6c642c1f8446c0 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/tasks.o: ../src/config/pic32mz_efm_curiosity_v2/tasks.c  .generated_files/flags/pic32mz_efm_curiosity_v2/bc03457d0bc2fe459141c673a586e83c20a311de .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/tasks.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/tasks.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/tasks.o.d" -o ${OBJECTDIR}/_ext/1363254953/tasks.o ../src/config/pic32mz_efm_curiosity_v2/tasks.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/pic32mz_efm_curiosity_v2/fd12f694a8e4db2c5cca10ea3b76f7e5d33f004f .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f55188d57e0360c0912d647bb61ccb10d2e70ef8 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/app_sqi.o: ../src/app_sqi.c  .generated_files/flags/pic32mz_efm_curiosity_v2/35080241f92a2cf01a0c5445ba7b1467daad0b32 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/app_sqi.o: ../src/app_sqi.c  .generated_files/flags/pic32mz_efm_curiosity_v2/fb2b5538ef6ef18ed7c21ff29e24b7e26ecadbd8 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sqi.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sqi.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app_sqi.o.d" -o ${OBJECTDIR}/_ext/1360937237/app_sqi.o ../src/app_sqi.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/app_sw_led.o: ../src/app_sw_led.c  .generated_files/flags/pic32mz_efm_curiosity_v2/577f81e5b0eeabde20271f803a9ca456cbf73ab7 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/app_sw_led.o: ../src/app_sw_led.c  .generated_files/flags/pic32mz_efm_curiosity_v2/6b4459c77476ee5e448572f64394c1b69f608327 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sw_led.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sw_led.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app_sw_led.o.d" -o ${OBJECTDIR}/_ext/1360937237/app_sw_led.o ../src/app_sw_led.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/delay.o: ../src/delay.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f9a65ad8f379f60ac37b9a7b9027a8fbd61cb041 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/delay.o: ../src/delay.c  .generated_files/flags/pic32mz_efm_curiosity_v2/926e118c4d439784ae7f2a292d2629e8e9ca38c3 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/delay.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/delay.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/delay.o.d" -o ${OBJECTDIR}/_ext/1360937237/delay.o ../src/delay.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o: ../src/sys_time_h2_adapter.c  .generated_files/flags/pic32mz_efm_curiosity_v2/e4f37007f4702ec2e99b47692e0b79cab556fb8a .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o: ../src/sys_time_h2_adapter.c  .generated_files/flags/pic32mz_efm_curiosity_v2/bd495e6933664079bd6b851cec23852a1a63ebd4 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o.d" -o ${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o ../src/sys_time_h2_adapter.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/_ext/2069430823/bsp.o: ../src/config/pic32mz_efm_curiosity_v2/bsp/bsp.c  .generated_files/flags/pic32mz_efm_curiosity_v2/a8d9da1fd4e275a141f3ac1d34272f0223b4eb1c .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/2069430823/bsp.o: ../src/config/pic32mz_efm_curiosity_v2/bsp/bsp.c  .generated_files/flags/pic32mz_efm_curiosity_v2/7d01bd274b1acc4b88931195d6afbc4217fe2bfa .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/2069430823" 
 	@${RM} ${OBJECTDIR}/_ext/2069430823/bsp.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2069430823/bsp.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/2069430823/bsp.o.d" -o ${OBJECTDIR}/_ext/2069430823/bsp.o ../src/config/pic32mz_efm_curiosity_v2/bsp/bsp.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1358738476/drv_sst26.o: ../src/config/pic32mz_efm_curiosity_v2/driver/sst26/src/drv_sst26.c  .generated_files/flags/pic32mz_efm_curiosity_v2/1ac69ba554fadef5187c009313e231c89412c6b2 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1358738476/drv_sst26.o: ../src/config/pic32mz_efm_curiosity_v2/driver/sst26/src/drv_sst26.c  .generated_files/flags/pic32mz_efm_curiosity_v2/46f8d942df470be7493e2374b807f4e120453252 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1358738476" 
 	@${RM} ${OBJECTDIR}/_ext/1358738476/drv_sst26.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1358738476/drv_sst26.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1358738476/drv_sst26.o.d" -o ${OBJECTDIR}/_ext/1358738476/drv_sst26.o ../src/config/pic32mz_efm_curiosity_v2/driver/sst26/src/drv_sst26.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1490348075/plib_cache.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/e4bd421420fd10ada9fad8be6f37126339de33ff .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1490348075/plib_cache.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/81bb2c8a48de5569d24087382895ce68d2ac77fa .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1490348075" 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1490348075/plib_cache.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1490348075/plib_cache.o.d" -o ${OBJECTDIR}/_ext/1490348075/plib_cache.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/cache/plib_cache.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/262136373/plib_clk.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/clk/plib_clk.c  .generated_files/flags/pic32mz_efm_curiosity_v2/c84b7434f0e76864d54833110a1da19747d2944a .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/262136373/plib_clk.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/clk/plib_clk.c  .generated_files/flags/pic32mz_efm_curiosity_v2/df5d37800f5c40a9a2237574c59b4cb89672e8a .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/262136373" 
 	@${RM} ${OBJECTDIR}/_ext/262136373/plib_clk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/262136373/plib_clk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/262136373/plib_clk.o.d" -o ${OBJECTDIR}/_ext/262136373/plib_clk.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/clk/plib_clk.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/758467033/plib_coretimer.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/coretimer/plib_coretimer.c  .generated_files/flags/pic32mz_efm_curiosity_v2/fd179cfcf75f313688d6d3c688a6d3a80960b3e4 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/758467033/plib_coretimer.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/coretimer/plib_coretimer.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f4f43f051d0b1e2d4900025c9dac386a1d49a6c5 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/758467033" 
 	@${RM} ${OBJECTDIR}/_ext/758467033/plib_coretimer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/758467033/plib_coretimer.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/758467033/plib_coretimer.o.d" -o ${OBJECTDIR}/_ext/758467033/plib_coretimer.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/coretimer/plib_coretimer.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/463637800/plib_evic.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/evic/plib_evic.c  .generated_files/flags/pic32mz_efm_curiosity_v2/dadfd8f981bb57db32b8fce81bcc84d88193e78f .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/463637800/plib_evic.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/evic/plib_evic.c  .generated_files/flags/pic32mz_efm_curiosity_v2/558c0ac3aeb91c9b78af3a18ed7cfc8297543d62 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/463637800" 
 	@${RM} ${OBJECTDIR}/_ext/463637800/plib_evic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/463637800/plib_evic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/463637800/plib_evic.o.d" -o ${OBJECTDIR}/_ext/463637800/plib_evic.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/evic/plib_evic.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/463583972/plib_gpio.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/gpio/plib_gpio.c  .generated_files/flags/pic32mz_efm_curiosity_v2/616176a3f0df492efad4b058aac909346350b209 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/463583972/plib_gpio.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/gpio/plib_gpio.c  .generated_files/flags/pic32mz_efm_curiosity_v2/5dfc3daea91e282a1eaee78324540ae2c8795e78 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/463583972" 
 	@${RM} ${OBJECTDIR}/_ext/463583972/plib_gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/463583972/plib_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/463583972/plib_gpio.o.d" -o ${OBJECTDIR}/_ext/463583972/plib_gpio.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/gpio/plib_gpio.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/262151902/plib_sqi1.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/sqi/plib_sqi1.c  .generated_files/flags/pic32mz_efm_curiosity_v2/3e89a3a4f2d35c44d7509397481922c4f81ee34d .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/262151902/plib_sqi1.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/sqi/plib_sqi1.c  .generated_files/flags/pic32mz_efm_curiosity_v2/5c14a8c63b9e5d00934d979ed24ddc90e9c4efad .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/262151902" 
 	@${RM} ${OBJECTDIR}/_ext/262151902/plib_sqi1.o.d 
 	@${RM} ${OBJECTDIR}/_ext/262151902/plib_sqi1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/262151902/plib_sqi1.o.d" -o ${OBJECTDIR}/_ext/262151902/plib_sqi1.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/sqi/plib_sqi1.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/463181029/plib_uart6.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/uart/plib_uart6.c  .generated_files/flags/pic32mz_efm_curiosity_v2/35614f2201cbb310019df1e118e12e60a6a303 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/463181029/plib_uart6.o: ../src/config/pic32mz_efm_curiosity_v2/peripheral/uart/plib_uart6.c  .generated_files/flags/pic32mz_efm_curiosity_v2/763cd41a59aa60511114ae68fb047936a30f8f21 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/463181029" 
 	@${RM} ${OBJECTDIR}/_ext/463181029/plib_uart6.o.d 
 	@${RM} ${OBJECTDIR}/_ext/463181029/plib_uart6.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/463181029/plib_uart6.o.d" -o ${OBJECTDIR}/_ext/463181029/plib_uart6.o ../src/config/pic32mz_efm_curiosity_v2/peripheral/uart/plib_uart6.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/137441373/xc32_monitor.o: ../src/config/pic32mz_efm_curiosity_v2/stdio/xc32_monitor.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f3ca20deef7ed5f565ae78834335a51e126bd5dd .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/137441373/xc32_monitor.o: ../src/config/pic32mz_efm_curiosity_v2/stdio/xc32_monitor.c  .generated_files/flags/pic32mz_efm_curiosity_v2/978a2941b9cdadac9a1b8fd5f61518be917139bd .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/137441373" 
 	@${RM} ${OBJECTDIR}/_ext/137441373/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/137441373/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/137441373/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/137441373/xc32_monitor.o ../src/config/pic32mz_efm_curiosity_v2/stdio/xc32_monitor.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/522209976/sys_cache.o: ../src/config/pic32mz_efm_curiosity_v2/system/cache/sys_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/21e15bf780a77d92b5d56fbf59592319c2b5b407 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/522209976/sys_cache.o: ../src/config/pic32mz_efm_curiosity_v2/system/cache/sys_cache.c  .generated_files/flags/pic32mz_efm_curiosity_v2/bd41cbd84b4ae329bd24bcc431a20af8e444277d .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/522209976" 
 	@${RM} ${OBJECTDIR}/_ext/522209976/sys_cache.o.d 
 	@${RM} ${OBJECTDIR}/_ext/522209976/sys_cache.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/522209976/sys_cache.o.d" -o ${OBJECTDIR}/_ext/522209976/sys_cache.o ../src/config/pic32mz_efm_curiosity_v2/system/cache/sys_cache.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/2083639306/sys_int.o: ../src/config/pic32mz_efm_curiosity_v2/system/int/src/sys_int.c  .generated_files/flags/pic32mz_efm_curiosity_v2/cb6bad3ee4f9f6749b83a90f16454c36388cd16a .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/2083639306/sys_int.o: ../src/config/pic32mz_efm_curiosity_v2/system/int/src/sys_int.c  .generated_files/flags/pic32mz_efm_curiosity_v2/36e0ceb4589f491dd8b2135bb8e64973f31aa769 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/2083639306" 
 	@${RM} ${OBJECTDIR}/_ext/2083639306/sys_int.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2083639306/sys_int.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/2083639306/sys_int.o.d" -o ${OBJECTDIR}/_ext/2083639306/sys_int.o ../src/config/pic32mz_efm_curiosity_v2/system/int/src/sys_int.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1864244252/sys_time.o: ../src/config/pic32mz_efm_curiosity_v2/system/time/src/sys_time.c  .generated_files/flags/pic32mz_efm_curiosity_v2/de799d6da13a4337c28d16fdf318d4fd9b636e39 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1864244252/sys_time.o: ../src/config/pic32mz_efm_curiosity_v2/system/time/src/sys_time.c  .generated_files/flags/pic32mz_efm_curiosity_v2/3af012a9e4a9acc1e511a75ae9d31887a8ce1eac .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1864244252" 
 	@${RM} ${OBJECTDIR}/_ext/1864244252/sys_time.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1864244252/sys_time.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1864244252/sys_time.o.d" -o ${OBJECTDIR}/_ext/1864244252/sys_time.o ../src/config/pic32mz_efm_curiosity_v2/system/time/src/sys_time.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/initialization.o: ../src/config/pic32mz_efm_curiosity_v2/initialization.c  .generated_files/flags/pic32mz_efm_curiosity_v2/96eeb3f783c0d4ec85074f511c3b999872c78f30 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/initialization.o: ../src/config/pic32mz_efm_curiosity_v2/initialization.c  .generated_files/flags/pic32mz_efm_curiosity_v2/7759e6e877c8dbc8c60942fc55e06c6e7c5ee1f0 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/initialization.o.d" -o ${OBJECTDIR}/_ext/1363254953/initialization.o ../src/config/pic32mz_efm_curiosity_v2/initialization.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/interrupts.o: ../src/config/pic32mz_efm_curiosity_v2/interrupts.c  .generated_files/flags/pic32mz_efm_curiosity_v2/d62a28deb3979f3312654882980718b7b13ff170 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/interrupts.o: ../src/config/pic32mz_efm_curiosity_v2/interrupts.c  .generated_files/flags/pic32mz_efm_curiosity_v2/e82e48ffa7a8b38411032a996a4c090ad0c4cdeb .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/interrupts.o.d" -o ${OBJECTDIR}/_ext/1363254953/interrupts.o ../src/config/pic32mz_efm_curiosity_v2/interrupts.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/exceptions.o: ../src/config/pic32mz_efm_curiosity_v2/exceptions.c  .generated_files/flags/pic32mz_efm_curiosity_v2/7eefab434ba6b53d8d0b0506eb2bd32ec7384b90 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/exceptions.o: ../src/config/pic32mz_efm_curiosity_v2/exceptions.c  .generated_files/flags/pic32mz_efm_curiosity_v2/e5c0e63b34a1b4d17edcfd5999194bdeca49dc74 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/exceptions.o.d" -o ${OBJECTDIR}/_ext/1363254953/exceptions.o ../src/config/pic32mz_efm_curiosity_v2/exceptions.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1363254953/tasks.o: ../src/config/pic32mz_efm_curiosity_v2/tasks.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f7891501d454868ddde8dcbbd9654bc22ce00c57 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1363254953/tasks.o: ../src/config/pic32mz_efm_curiosity_v2/tasks.c  .generated_files/flags/pic32mz_efm_curiosity_v2/aaebd787647964b779dced59c7656eaa8ff948b7 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1363254953" 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/tasks.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1363254953/tasks.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1363254953/tasks.o.d" -o ${OBJECTDIR}/_ext/1363254953/tasks.o ../src/config/pic32mz_efm_curiosity_v2/tasks.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/pic32mz_efm_curiosity_v2/1e960d1469d25fa7b8365409dc79e5d5e2ed7185 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/pic32mz_efm_curiosity_v2/611db618de4631adb32cad7df14040f99414fa03 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/app_sqi.o: ../src/app_sqi.c  .generated_files/flags/pic32mz_efm_curiosity_v2/6d9403c708a43807c2cf8d0bba87097455cd54c7 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/app_sqi.o: ../src/app_sqi.c  .generated_files/flags/pic32mz_efm_curiosity_v2/99b5ac4307edcf42d4507ed32f1ff834c0330593 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sqi.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sqi.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app_sqi.o.d" -o ${OBJECTDIR}/_ext/1360937237/app_sqi.o ../src/app_sqi.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/app_sw_led.o: ../src/app_sw_led.c  .generated_files/flags/pic32mz_efm_curiosity_v2/f14eb9eeda34d91e46dfac73a1e974601fa40a39 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/app_sw_led.o: ../src/app_sw_led.c  .generated_files/flags/pic32mz_efm_curiosity_v2/e727df34312105f4bfa4606677a97c7f082add9d .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sw_led.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/app_sw_led.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/app_sw_led.o.d" -o ${OBJECTDIR}/_ext/1360937237/app_sw_led.o ../src/app_sw_led.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/delay.o: ../src/delay.c  .generated_files/flags/pic32mz_efm_curiosity_v2/68fab6a3789477fbf7da9b643e9baa7bd86e661f .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/delay.o: ../src/delay.c  .generated_files/flags/pic32mz_efm_curiosity_v2/40f4e32c854e56c37177d145ba4391d2493d4df0 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/delay.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/delay.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/pic32mz_efm_curiosity_v2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/delay.o.d" -o ${OBJECTDIR}/_ext/1360937237/delay.o ../src/delay.c    -DXPRJ_pic32mz_efm_curiosity_v2=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o: ../src/sys_time_h2_adapter.c  .generated_files/flags/pic32mz_efm_curiosity_v2/3f053a418e896778afb22b15ecad9e1f0575039b .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
+${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o: ../src/sys_time_h2_adapter.c  .generated_files/flags/pic32mz_efm_curiosity_v2/1a114ffb9820d08af55643af1c2c2860dee1e293 .generated_files/flags/pic32mz_efm_curiosity_v2/b66269265d4610f960509196520b88a0562a770a
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/sys_time_h2_adapter.o 
