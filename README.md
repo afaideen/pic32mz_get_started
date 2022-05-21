@@ -11,6 +11,10 @@ Firmware Module
 1. LED
 2. LED RGB
 3. Switch
-4. SQI Flash
+4. SQI Flash Max 50MHz
+5. UART at baud rate 115200
 
 After firmware upload, the RGB LED will turn green ON upon SQI successful communication read and write.
+Led2 will blink every 2 seconds and for the uart at console should get such message
+"Message printed every 2000 ms".
+If SW4 is pressed then LED will turn blue ON.
