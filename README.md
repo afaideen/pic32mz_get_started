@@ -5,6 +5,7 @@ Tested with,
 1. Compiler XC32 v2.40
 2. MPLABX IDE v6.0
 3. PIC32MZ EFM CURIOSITY V2 BOARD
+4. Mplab Harmony V3
 
 Firmware Module
 
