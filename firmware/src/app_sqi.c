@@ -123,7 +123,7 @@ void APP_SQI_Tasks ( void )
         }
 
         case APP_SQI_STATE_OPEN_DRIVER:
-            {
+            
             app_sqiData.handle = DRV_SST26_Open(DRV_SST26_INDEX, DRV_IO_INTENT_READWRITE);
 
             if (app_sqiData.handle != DRV_HANDLE_INVALID)
@@ -132,24 +132,24 @@ void APP_SQI_Tasks ( void )
             }
 
             break;
-        }
+        
         case APP_SQI_STATE_GEOMETRY_GET:
-        {
+        
             if (DRV_SST26_GeometryGet(app_sqiData.handle, &app_sqiData.geometry) != true)
             {
                 app_sqiData.state = APP_SQI_STATE_ERROR;
-            break;
-        }
+                break;
+            }
 
             erase_index = 0;
             write_index = 0;
             app_sqiData.state = APP_SQI_STATE_ERASE_FLASH;
 
             break;
-        }
+        
 
         case APP_SQI_STATE_ERASE_FLASH:
-        {
+        
             if (DRV_SST26_SectorErase(app_sqiData.handle, (MEM_ADDRESS + erase_index)) != true)
             {
                 app_sqiData.state = APP_SQI_STATE_ERROR;
@@ -158,10 +158,10 @@ void APP_SQI_Tasks ( void )
             app_sqiData.state = APP_SQI_STATE_ERASE_WAIT;
 
             break;
-        }
+        
 
         case APP_SQI_STATE_ERASE_WAIT:
-        {
+        
             transferStatus = DRV_SST26_TransferStatusGet(app_sqiData.handle);
 
             if(transferStatus == DRV_SST26_TRANSFER_COMPLETED)
@@ -169,7 +169,7 @@ void APP_SQI_Tasks ( void )
                 erase_index += app_sqiData.geometry.erase_blockSize;
 
                 if (erase_index < BUFFER_SIZE)
-        {
+                {
                     app_sqiData.state = APP_SQI_STATE_ERASE_FLASH;
                 }
                 else
@@ -182,23 +182,23 @@ void APP_SQI_Tasks ( void )
                 app_sqiData.state = APP_SQI_STATE_ERROR;
             }
             break;
-        }
+        
 
         case APP_SQI_STATE_WRITE_MEMORY:
-        {
+        
             if (DRV_SST26_PageWrite(app_sqiData.handle, (uint32_t *)&app_sqiData.writeBuffer[write_index], (MEM_ADDRESS + write_index)) != true)
             {
                 app_sqiData.state = APP_SQI_STATE_ERROR;
                 break;
-    }
+            }
 
             app_sqiData.state = APP_SQI_STATE_WRITE_WAIT;
 
             break;
-}
+
 
         case APP_SQI_STATE_WRITE_WAIT:
-        {
+        
             transferStatus = DRV_SST26_TransferStatusGet(app_sqiData.handle);
 
             if(transferStatus == DRV_SST26_TRANSFER_COMPLETED)
@@ -220,10 +220,10 @@ void APP_SQI_Tasks ( void )
             }
 
             break;
-        }
+        
 
         case APP_SQI_STATE_READ_MEMORY:
-        {
+        
             if (DRV_SST26_Read(app_sqiData.handle, (uint32_t *)&app_sqiData.readBuffer, BUFFER_SIZE, MEM_ADDRESS) != true)
             {
                 app_sqiData.state = APP_SQI_STATE_ERROR;
@@ -234,10 +234,10 @@ void APP_SQI_Tasks ( void )
             }
 
             break;
-        }
+        
 
         case APP_SQI_STATE_READ_WAIT:
-        {
+        
             transferStatus = DRV_SST26_TransferStatusGet(app_sqiData.handle);
 
             if(transferStatus == DRV_SST26_TRANSFER_COMPLETED)
@@ -250,10 +250,10 @@ void APP_SQI_Tasks ( void )
             }
 
             break;
-        }
+        
 
         case APP_SQI_STATE_VERIFY_DATA:
-        {
+        
             if (!memcmp(app_sqiData.writeBuffer, app_sqiData.readBuffer, BUFFER_SIZE))
             {
                 app_sqiData.state = APP_SQI_STATE_SUCCESS;
@@ -264,16 +264,16 @@ void APP_SQI_Tasks ( void )
             }
 
             break;
-        }
+        
 
         case APP_SQI_STATE_SUCCESS:
-        {
+        
             DRV_SST26_Close(app_sqiData.handle);
 
 //            LED_ON();
             RGB_LED_G_On();
             break;
-        }
+        
 
         case APP_SQI_STATE_ERROR:
         default:

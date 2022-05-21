@@ -12,3 +12,5 @@ Firmware Module
 2. LED RGB
 3. Switch
 4. SQI Flash
+
+After firmware upload, the RGB LED will turn green ON upon SQI successful communication read and write.

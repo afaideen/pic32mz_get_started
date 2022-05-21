@@ -119,7 +119,7 @@ void APP_SW_LED_Tasks ( void )
     {
         /* Application's initial state. */
         case APP_SW_LED_STATE_INIT:
-        {
+        
             if( AppDelay(t1, 2000) )
             {
                 t1 = SYS_TMR_TickCountGet();
@@ -145,14 +145,14 @@ void APP_SW_LED_Tasks ( void )
                 LED1_Toggle();
             }
             break;
-        }
+        
 
         /* The default state should never be executed. */
         default:
-        {
+        
             /* TODO: Handle error in application's state machine. */
             break;
-        }
+        
     }
 }
 
